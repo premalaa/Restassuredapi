@@ -16,7 +16,7 @@ public class APITesting013_DELETE_NONBddStyle {
     public void test_delete_non_bdd() {
 
         String token = "f51528e2d083ead";
-        String bookingid = "8983";
+        String bookingid = "692";
 
 
         RequestSpecification requestSpecification = RestAssured.given();
