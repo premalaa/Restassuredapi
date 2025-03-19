@@ -1,4 +1,4 @@
-package com.premalaanand.PayloadManagement.tool02;
+package com.premalaanand.ex010_PayloadManagement.tool02;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

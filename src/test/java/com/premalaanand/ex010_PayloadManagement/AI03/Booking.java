@@ -1,29 +1,27 @@
-package com.premalaanand.PayloadManagement.gson;
-
-import com.google.gson.annotations.Expose;
-import com.google.gson.annotations.SerializedName;
+package com.premalaanand.ex010_PayloadManagement.AI03;
 
 public class Booking {
-
-    @SerializedName("firstname")
-    @Expose
     private String firstname;
-    @SerializedName("lastname")
-    @Expose
     private String lastname;
-    @SerializedName("totalprice")
-    @Expose
-    private Integer totalprice;
-    @SerializedName("depositpaid")
-    @Expose
-    private Boolean depositpaid;
-    @SerializedName("bookingdates")
-    @Expose
+    private int totalprice;
+    private boolean depositpaid;
     private BookingDates bookingdates;
-    @SerializedName("additionalneeds")
-    @Expose
     private String additionalneeds;
 
+    // Constructors
+    public Booking() {
+    }
+
+    public Booking(String firstname, String lastname, int totalprice, boolean depositpaid, BookingDates bookingdates, String additionalneeds) {
+        this.firstname = firstname;
+        this.lastname = lastname;
+        this.totalprice = totalprice;
+        this.depositpaid = depositpaid;
+        this.bookingdates = bookingdates;
+        this.additionalneeds = additionalneeds;
+    }
+
+    // Getters and Setters
     public String getFirstname() {
         return firstname;
     }
@@ -40,19 +38,19 @@ public class Booking {
         this.lastname = lastname;
     }
 
-    public Integer getTotalprice() {
+    public int getTotalprice() {
         return totalprice;
     }
 
-    public void setTotalprice(Integer totalprice) {
+    public void setTotalprice(int totalprice) {
         this.totalprice = totalprice;
     }
 
-    public Boolean getDepositpaid() {
+    public boolean isDepositpaid() {
         return depositpaid;
     }
 
-    public void setDepositpaid(Boolean depositpaid) {
+    public void setDepositpaid(boolean depositpaid) {
         this.depositpaid = depositpaid;
     }
 
@@ -61,7 +59,7 @@ public class Booking {
     }
 
     public void setBookingdates(BookingDates bookingdates) {
-        this.bookingdates= bookingdates;
+        this.bookingdates = bookingdates;
     }
 
     public String getAdditionalneeds() {
@@ -71,5 +69,4 @@ public class Booking {
     public void setAdditionalneeds(String additionalneeds) {
         this.additionalneeds = additionalneeds;
     }
-
 }

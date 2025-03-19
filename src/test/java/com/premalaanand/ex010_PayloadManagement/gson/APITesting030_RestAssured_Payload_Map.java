@@ -1,4 +1,4 @@
-package com.premalaanand.PayloadManagement.gson;
+package com.premalaanand.ex010_PayloadManagement.gson;
 
 import com.google.gson.Gson;
 import io.restassured.RestAssured;

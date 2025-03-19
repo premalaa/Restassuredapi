@@ -1,4 +1,4 @@
-package com.premalaanand.PayloadManagement.jackson_api;
+package com.premalaanand.ex010_PayloadManagement.jackson_api;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

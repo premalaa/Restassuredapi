@@ -1,13 +1,9 @@
-package com.premalaanand.PayloadManagement;
+package com.premalaanand.ex010_PayloadManagement;
 
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
 import org.testng.annotations.Test;
-
-import java.util.LinkedHashMap;
-import java.util.Map;
-import java.util.Objects;
 
 public class APITesting029_RestAssured_Payload_POJO {
 

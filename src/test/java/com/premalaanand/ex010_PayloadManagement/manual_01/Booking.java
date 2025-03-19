@@ -1,4 +1,4 @@
-package com.premalaanand.PayloadManagement.manual_01;
+package com.premalaanand.ex010_PayloadManagement.manual_01;
 
 public class Booking {
 

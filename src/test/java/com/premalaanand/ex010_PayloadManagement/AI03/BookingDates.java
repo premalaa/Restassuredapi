@@ -1,17 +1,19 @@
-package com.premalaanand.PayloadManagement.gson;
-
-import com.google.gson.annotations.Expose;
-import com.google.gson.annotations.SerializedName;
+package com.premalaanand.ex010_PayloadManagement.AI03;
 
 public class BookingDates {
-
-    @SerializedName("checkin")
-    @Expose
     private String checkin;
-    @SerializedName("checkout")
-    @Expose
     private String checkout;
 
+    // Constructors
+    public BookingDates() {
+    }
+
+    public BookingDates(String checkin, String checkout) {
+        this.checkin = checkin;
+        this.checkout = checkout;
+    }
+
+    // Getters and Setters
     public String getCheckin() {
         return checkin;
     }
